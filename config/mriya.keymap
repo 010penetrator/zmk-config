@@ -48,8 +48,8 @@
         raise_layer {
             bindings = <
   &trans  &trans           &trans          &kp KP_NUMLOCK  &trans     &kp CAPSLOCK    &trans        &kp C_VOLUME_DOWN  &kp INSERT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE
-  &trans  &kp KP_SLASH     &kp KP_N7       &kp KP_N8       &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp HOME           &kp PSCRN   &kp END            &none            &trans
-  &trans  &kp KP_MULTIPLY  &kp KP_N4       &kp KP_N5       &kp KP_N6  &kp KP_PLUS     &kp LEFT      &kp DOWN           &kp UP      &kp RIGHT          &none            &trans
+  &trans  &kp KP_SLASH     &kp KP_N7       &kp KP_N8       &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp HOME           &kp PSCRN   &kp END            &none            &kp PG_UP
+  &trans  &kp KP_MULTIPLY  &kp KP_N4       &kp KP_N5       &kp KP_N6  &kp KP_PLUS     &kp LEFT      &kp DOWN           &kp UP      &kp RIGHT          &none            &kp PG_DN
   &trans  &kp EQUAL        &kp UNDERSCORE  &kp PLUS        &kp MINUS  &none           &none         &kp MINUS          &kp PLUS    &kp UNDERSCORE     &kp EQUAL        &trans
                            &kp CAPSLOCK    &trans          &trans     &mo 3           &mo 3         &trans             &trans      &kp K_APPLICATION
             >;
