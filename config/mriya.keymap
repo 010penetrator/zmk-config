@@ -41,7 +41,7 @@
   &trans  &kp F5  &kp F6   &kp F7    &kp F8     &none           &none         &kp HOME       &kp INS      &kp END    &none     &kp PAGE_UP
   &trans  &kp F9  &kp F10  &kp F11   &kp F12    &none           &none         &kp PAGE_DOWN  &kp PAGE_UP  &kp LPAR   &kp RPAR  &kp PAGE_DOWN
   &trans  &none   &none    &kp LEFT  &kp RIGHT  &kp NUMBER_0    &kp LC(LEFT)  &kp LC(RIGHT)  &kp LEFT     &kp RIGHT  &none     &trans
-                  &trans   &mo 3     &trans     &trans          &trans        &trans         &mo 3        &trans
+                  &trans   &mo 3     &kp UNDER  &trans          &trans        &kp UNDER      &mo 3        &trans
             >;
         };
 
@@ -51,7 +51,7 @@
   &trans  &kp KP_SLASH     &kp KP_N7       &kp KP_N8       &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp HOME           &kp PSCRN   &kp END            &none            &kp PG_UP
   &trans  &kp KP_MULTIPLY  &kp KP_N4       &kp KP_N5       &kp KP_N6  &kp KP_PLUS     &kp LEFT      &kp DOWN           &kp UP      &kp RIGHT          &none            &kp PG_DN
   &trans  &kp EQUAL        &kp UNDERSCORE  &kp PLUS        &kp MINUS  &none           &none         &kp MINUS          &kp PLUS    &kp UNDERSCORE     &kp EQUAL        &trans
-                           &kp CAPSLOCK    &trans          &trans     &mo 3           &mo 3         &trans             &trans      &kp K_APPLICATION
+                           &kp CAPSLOCK    &trans          &kp MINUS  &mo 3           &mo 3         &kp MINUS          &trans      &kp K_APPLICATION
             >;
         };
 
