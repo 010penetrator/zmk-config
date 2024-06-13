@@ -43,11 +43,11 @@
 
         raise_layer {
             bindings = <
-  &kp RIGHT_SHIFT  &trans           &trans          &kp KP_NUMLOCK  &trans     &none           &trans             &kp C_VOLUME_DOWN  &kp INSERT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp K_MUTE
-  &kp LEFT_SHIFT   &kp KP_SLASH     &kp KP_N7       &kp KP_N8       &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP       &kp HOME           &kp PSCRN   &kp END            &kp DOUBLE_QUOTES  &kp PG_UP
-  &trans           &kp KP_MULTIPLY  &kp KP_N4       &kp KP_N5       &kp KP_N6  &kp KP_PLUS     &kp LEFT           &kp DOWN           &kp UP      &kp RIGHT          &kp APOSTROPHE     &kp PG_DN
-  &trans           &kp EQUAL        &kp UNDERSCORE  &kp PLUS        &kp MINUS  &kp CAPS        &kp K_APPLICATION  &kp MINUS          &kp PLUS    &kp UNDERSCORE     &kp EQUAL          &trans
-                                    &kp TAB         &trans          &kp MINUS  &mo 3           &mo 3              &kp MINUS          &trans      &kp TAB
+  &kp RIGHT_SHIFT  &trans             &trans          &kp KP_NUMLOCK  &trans     &none             &trans          &trans     &kp INSERT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp K_MUTE
+  &kp CAPSLOCK     &kp KP_SLASH       &kp KP_N7       &kp KP_N8       &kp KP_N9  &kp KP_MINUS      &trans          &kp HOME   &kp PSCRN   &kp END            &trans             &kp PG_UP
+  &trans           &kp DOUBLE_QUOTES  &kp KP_N4       &kp KP_N5       &kp KP_N6  &kp KP_PLUS       &kp LEFT        &kp DOWN   &kp UP      &kp RIGHT          &kp DOUBLE_QUOTES  &kp PG_DN
+  &trans           &kp EQUAL          &kp UNDERSCORE  &kp PLUS        &kp MINUS  &kp APOSTROPHE    &kp APOSTROPHE  &kp MINUS  &kp PLUS    &kp UNDERSCORE     &kp EQUAL          &trans
+                                      &kp TAB         &trans          &kp MINUS  &mo 3             &mo 3           &kp MINUS  &trans      &kp TAB
             >;
         };
 
