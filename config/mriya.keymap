@@ -46,7 +46,7 @@
   &kp RIGHT_SHIFT  &trans             &trans          &kp KP_NUMLOCK  &trans     &none             &trans             &trans     &kp INSERT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp K_MUTE
   &kp CAPSLOCK     &kp KP_SLASH       &kp KP_N7       &kp KP_N8       &kp KP_N9  &kp KP_MINUS      &kp DOUBLE_QUOTES  &kp HOME   &kp PSCRN   &kp END            &kp DOUBLE_QUOTES  &kp PG_UP
   &trans           &kp DOUBLE_QUOTES  &kp KP_N4       &kp KP_N5       &kp KP_N6  &kp KP_PLUS       &kp LEFT           &kp DOWN   &kp UP      &kp RIGHT          &kp DOUBLE_QUOTES  &kp PG_DN
-  &trans           &kp EQUAL          &kp UNDERSCORE  &kp PLUS        &kp MINUS  &kp APOSTROPHE    &kp APOSTROPHE     &kp MINUS  &kp PLUS    &kp UNDERSCORE     &kp EQUAL          &trans
+  &trans           &kp EQUAL          &kp UNDERSCORE  &kp PLUS        &kp MINUS  &kp APOSTROPHE    &kp APOSTROPHE     &kp MINUS  &kp PLUS    &kp UNDERSCORE     &kp EQUAL          &kp DOUBLE_QUOTES
                                       &kp TAB         &trans          &trans     &mo 3             &mo 3              &kp MINUS  &trans      &kp TAB
             >;
         };
